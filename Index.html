@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-O-Double - Ending Hunger Through Innovation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Food-O-Double</div>
+            <ul class="nav-links">
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Double the Food,<br>End Hunger Forever</h1>
+            <p class="tagline">Innovative technology to fight food insecurity with humor and hard work</p>
+            <button class="cta-button" id="learnMoreBtn">Learn How It Works</button>
+        </div>
+    </header>
+
+    <!-- Mission Section -->
+    <section id="mission" class="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <div class="mission-content">
+                <p class="mission-statement">"Bring a professional product to the market without the control of anyone else."</p>
+                <div class="values">
+                    <div class="value-card">
+                        <h3>Hard Working</h3>
+                        <p>We put in the effort needed to make real change</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Humor</h3>
+                        <p>We believe joy is as important as nutrition</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Our All-Star Team</h2>
+            <div class="team-grid" id="teamContainer">
+                <!-- Team members will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="solution">
+        <div class="container">
+            <h2>Our Hunger Solution</h2>
+            <div class="solution-content">
+                <div class="solution-text">
+                    <h3>For the Homeless Community</h3>
+                    <p>We're creating technology that allows food to be duplicated after it's cooked or purchased, providing infinite meals from a single source.</p>
+                    <ul class="benefits">
+                        <li>Multiply any food item</li>
+                        <li>No special ingredients needed</li>
+                        <li>Simple enough for anyone to use</li>
+                        <li>Works in collective living spaces</li>
+                    </ul>
+                </div>
+                <div class="solution-image">
+                    <div class="image-placeholder" id="productAnimation">
+                        <!-- Animation will go here -->
+                        <span class="food-item">🍔</span>
+                        <span class="arrow">⇒</span>
+                        <span class="food-item">🍔🍔</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get Involved</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">I'm interested in:</label>
+                    <select id="interest" name="interest">
+                        <option value="volunteer">Volunteering</option>
+                        <option value="donate">Donating</option>
+                        <option value="partner">Partnership</option>
+                        <option value="learn">Learning More</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Food-O-Double</div>
+                <div class="footer-links">
+                    <a href="#mission">About Us</a>
+                    <a href="#solution">Our Technology</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <span>Follow Us:</span>
+                    <a href="#" class="social-icon">📘</a>
+                    <a href="#" class="social-icon">📸</a>
+                    <a href="#" class="social-icon">🐦</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Food-O-Double. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
